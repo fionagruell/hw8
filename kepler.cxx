@@ -5,7 +5,7 @@ void symp(double* p,double* q,double& H,double dt, const int dim);
 int main(){
 const double pi=M_PI;
 const int dim =2;
-const double dt=0.5;
+const double dt=0.0005;
 double p[dim];
 double q[dim];
 double tend=20*pi;
